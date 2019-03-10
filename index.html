@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Simple Login System</title>
+
+<style>
+    body {
+        font-family: sans-serif;
+    }
+    ._app {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 390px;
+        background-color: rgb(245,245,245);
+        height: auto;
+        padding: 15px 0px;
+        border-radius: 10px;
+    }  
+    ._app h1 {
+        text-align: center;
+        text-transform: uppercase;
+        user-select: none;
+        color: #222;
+    }
+    ._app ._fi4x {
+        display: block;
+        width: 360px;
+        height: 50px;
+        box-sizing: border-box;
+        background-color: #FFF;
+        outline: none;
+        border: 2px solid rgb(230,230,230);
+        margin: 35px auto;
+        padding: 5px;
+        font-family: sans-serif;
+        border-radius: 7px;
+        transition: .2s;
+        font-weight: bold;
+    }
+    ._app ._fi4x:focus {
+        box-shadow: 0 0 0px 2px #0072ff70;
+        border-color: rgb(0,150,255);
+    }
+    #login {
+        display: block;
+        padding: 15px 25px;
+        color: #FFF;
+        border: 0px;
+        outline: none;
+        border-radius: 5px;
+        background-color: rgb(0,150,255);
+        margin: 25px auto;
+        cursor: pointer;
+    }
+    #link {
+        display: block;
+        text-align: center;
+        line-height: 2;
+    }
+    #link a {
+        text-decoration: none;
+        color: rgb(0,150,255);
+        font-weight: bold;
+        user-select: none;
+    }
+    .leg {
+        text-align: center;
+        display: block;
+        padding: 15px 0px;
+        font-size: 12px;
+        opacity: .5;
+        user-select: none;
+    }
+</style>
+</head>    
+<body>
+<div class="_app">
+<h1>login</h1>    
+<form action="index.html">
+<input type="text" placeholder="Enter Username" id="username" name="username" class="_fi4x">    
+<input type="password" placeholder="Enter Password" id="password" name="password" class="_fi4x">  
+<button type="submit" id="login">Login</button>
+</form>
+</div>
+<script>
+    
+</script>
+</body>
+</html>
